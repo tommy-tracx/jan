@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy - Jan.ai',
+  title: 'Privacy - Tuna.ai',
   description: 'Privacy',
 }
 
@@ -22,14 +22,14 @@ const Page = () => {
       <article className="prose lg:prose-xl my-20 w-full">
         <h1>Privacy Policy </h1>
         <p>
-          Jan is committed to protecting your privacy and ensuring that your
+          Tuna is committed to protecting your privacy and ensuring that your
           personal information is handled in a safe and responsible way. This
           policy outlines how we collect, store, and use your personal
           information when you use our mobile application.
         </p>
         <h2>Data Collection and Usage</h2>
         <p>
-          When you use Jan, we may collect certain information about you,
+          When you use Tuna, we may collect certain information about you,
           including your name, email address, and other personal information
           that you provide to us. We use this information to provide you with
           the best possible experience when using our app.

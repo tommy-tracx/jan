@@ -16,7 +16,7 @@ const ModalChangeDestNotEmpty = ({ onUserConfirmed }: Props) => {
   return (
     <Modal
       open={show}
-      title="This folder is not empty. Are you sure you want to relocate Jan Data Folder here?"
+      title="This folder is not empty. Are you sure you want to relocate Tuna Data Folder here?"
       onOpenChange={setShow}
       content={
         <div>

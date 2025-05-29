@@ -46,7 +46,7 @@ jobs:
         uses: Ilshidur/action-discord@master
         with:
           args: |
-            Jan App ${{ inputs.build_reason }} build artifact version {{ VERSION }}:
+            Tuna App ${{ inputs.build_reason }} build artifact version {{ VERSION }}:
             - Windows: https://delta.jan.ai/nightly/jan-nightly-win-x64-{{ VERSION }}.exe
             - macOS Universal: https://delta.jan.ai/nightly/jan-nightly-mac-universal-{{ VERSION }}.dmg
             - Linux Deb: https://delta.jan.ai/nightly/jan-nightly-linux-amd64-{{ VERSION }}.deb

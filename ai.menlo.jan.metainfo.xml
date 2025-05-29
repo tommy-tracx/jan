@@ -3,19 +3,19 @@
   <id>ai.menlo.jan</id>
   <metadata_license>FSFAP</metadata_license>
   <project_license>AGPL-3.0-only</project_license>
-  <name>Jan</name>
+  <name>Tuna</name>
   <summary>Local AI Assistant that runs 100% offline on your device</summary>
   
   <description>
     <p>
-      Jan is a ChatGPT-alternative that runs 100% offline on your device. Our goal is to make it easy for anyone to download and run LLMs and use AI with full control and privacy.
+      Tuna is a ChatGPT-alternative that runs 100% offline on your device. Our goal is to make it easy for anyone to download and run LLMs and use AI with full control and privacy.
     </p>
     <p>Features:</p>
     <ul>
       <li>Model Library with popular LLMs like Llama, Gemma, Mistral, or Qwen</li>
       <li>Connect to Remote AI APIs like Groq and OpenRouter</li>
       <li>Local API Server with OpenAI-equivalent API</li>
-      <li>Extensions for customizing Jan</li>
+      <li>Extensions for customizing Tuna</li>
     </ul>
   </description>
   
@@ -35,7 +35,7 @@
   <releases>
     <release version="0.5.12" date="2024-01-02">
       <description>
-        <p>Latest stable release of Jan AI</p>
+        <p>Latest stable release of Tuna AI</p>
       </description>
     </release>
   </releases>

@@ -14,7 +14,7 @@ export default function LogoMark(props: Props) {
       height={height}
       className={className}
       src="icons/app_icon.svg"
-      alt="Jan - Logo"
+      alt="Tuna - Logo"
     />
   )
 }

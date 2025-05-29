@@ -52,7 +52,7 @@ const BottomPanel = () => {
       <div className="flex items-center gap-x-1">
         <SystemMonitor />
         <span className="font-medium text-[hsla(var(--text-secondary))]">
-          Jan v{VERSION ?? ''}
+          Tuna v{VERSION ?? ''}
         </span>
         <div className="ml-2 flex items-center">
           {menuLinks

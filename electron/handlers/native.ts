@@ -284,7 +284,7 @@ export function handleAppIPCs() {
   })
 
   /**
-   * Handles the "startServer" IPC message to start the Jan API server.
+   * Handles the "startServer" IPC message to start the Tuna API server.
    * Initializes and starts server with provided configuration options.
    * @param _event - The IPC event object.
    * @param args - Configuration object containing host, port, CORS settings etc.
@@ -305,14 +305,14 @@ export function handleAppIPCs() {
   )
 
   /**
-   * Handles the "stopServer" IPC message to stop the Jan API server.
+   * Handles the "stopServer" IPC message to stop the Tuna API server.
    * Gracefully shuts down the server instance.
    * @param _event - The IPC event object
    * @returns Promise that resolves when server stops successfully
    */
   ipcMain.handle(NativeRoute.stopServer, async (_event): Promise<void> => {
     /**
-     * Stop Jan API Server.
+     * Stop Tuna API Server.
      */
     const { stopServer } = require('@janhq/server')
     return stopServer()

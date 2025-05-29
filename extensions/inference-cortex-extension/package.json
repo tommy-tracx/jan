@@ -5,7 +5,7 @@
   "description": "This extension embeds cortex.cpp, a lightweight inference engine written in C++. See https://jan.ai.\nAdditional dependencies could be installed to run without Cuda Toolkit installation.",
   "main": "dist/index.js",
   "node": "dist/node/index.cjs.js",
-  "author": "Jan <service@jan.ai>",
+  "author": "Tuna <service@tuna.ai>",
   "license": "AGPL-3.0",
   "scripts": {
     "test": "vitest run",

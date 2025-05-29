@@ -4,7 +4,7 @@
   "version": "1.0.36",
   "description": "Handles model lists, their details, and settings.",
   "main": "dist/index.js",
-  "author": "Jan <service@jan.ai>",
+  "author": "Tuna <service@tuna.ai>",
   "license": "AGPL-3.0",
   "scripts": {
     "test": "vitest run",

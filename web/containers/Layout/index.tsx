@@ -206,16 +206,16 @@ const BaseLayout = () => {
                 />
               </svg>
 
-              <h6 className="text-base font-semibold">Help Us Improve Jan</h6>
+              <h6 className="text-base font-semibold">Help Us Improve Tuna</h6>
             </div>
             <p className="text-[hsla(var(--text-secondary))]">
-              To improve Jan, we collect anonymous data to understand feature
+              To improve Tuna, we collect anonymous data to understand feature
               usage. Your chats and personal information are never tracked. You
               can change this anytime in&nbsp;
               <span className="font-semibold">{`Settings > Privacy.`}</span>
             </p>
             <p className="mt-6 text-[hsla(var(--text-secondary))]">
-              Would you like to help us to improve Jan?
+              Would you like to help us to improve Tuna?
             </p>
             <div className="mt-6 flex items-center gap-x-2">
               <Button

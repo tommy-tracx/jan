@@ -77,7 +77,7 @@ jobs:
         uses: Ilshidur/action-discord@master
         with:
           args: |
-            Jan-beta App version {{ VERSION }}, has been released, use the following links to download the app with faster speed or visit the Github release page for more information:
+            Tuna-beta App version {{ VERSION }}, has been released, use the following links to download the app with faster speed or visit the Github release page for more information:
             - Windows: https://delta.jan.ai/beta/jan-beta-win-x64-{{ VERSION }}.exe
             - macOS Universal: https://delta.jan.ai/beta/jan-beta-mac-universal-{{ VERSION }}.dmg
             - Linux Deb: https://delta.jan.ai/beta/jan-beta-linux-amd64-{{ VERSION }}.deb

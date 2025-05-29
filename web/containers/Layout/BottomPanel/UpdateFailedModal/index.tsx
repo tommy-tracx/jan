@@ -17,7 +17,7 @@ const UpdatedFailedModal = () => {
       content={
         <div>
           <p className="text-[hsla(var(--text-secondary)]">
-            An error occurred while installing Jan{' '}
+            An error occurred while installing Tuna{' '}
             <span className="font-medium">{error}</span>. We appreciate your
             help with{' '}
             <a

@@ -16,7 +16,7 @@ const ModalErrorSetDestGlobal = () => {
       content={
         <div>
           <p className="text-[hsla(var(--text-secondary))]">
-            Oops! Something went wrong. Jan data folder remains the same. Please
+            Oops! Something went wrong. Tuna data folder remains the same. Please
             try again.
           </p>
           <div className="mt-4 flex justify-end gap-x-2">

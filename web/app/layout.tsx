@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 import '@/styles/main.scss'
 
 export const metadata: Metadata = {
-  title: 'Jan',
+  title: 'Tuna',
   description:
     'Self-hosted, local, AI Inference Platform that scales from personal use to production deployments for a team.',
 }

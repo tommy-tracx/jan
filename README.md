@@ -1,6 +1,6 @@
-# Jan - Local AI Assistant
+# Tuna - Local AI Assistant
 
-![Jan banner](./JanBanner.png)
+![Tuna banner](./JanBanner.png)
 
 <p align="center">
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -20,13 +20,13 @@
 </p>
 
 <p align="center">
-⚠️ <b> Jan is currently in Development</b>: Expect breaking changes and bugs!
+⚠️ <b> Tuna is currently in Development</b>: Expect breaking changes and bugs!
 </p>
 
-Jan is a ChatGPT-alternative that runs 100% offline on your device. Our goal is to make it easy for a layperson to download and run LLMs and use AI with **full control** and **privacy**.
+Tuna is a ChatGPT-alternative that runs 100% offline on your device. Our goal is to make it easy for a layperson to download and run LLMs and use AI with **full control** and **privacy**.
 
-Jan is powered by [Cortex](https://github.com/menloresearch/cortex.cpp), our embeddable local AI engine that runs on any hardware.
-From PCs to multi-GPU clusters, Jan & Cortex supports universal architectures:
+Tuna is powered by [Cortex](https://github.com/menloresearch/cortex.cpp), our embeddable local AI engine that runs on any hardware.
+From PCs to multi-GPU clusters, Tuna & Cortex supports universal architectures:
 
 - [x] NVIDIA GPUs (fast)
 - [x] Apple M-series (fast)
@@ -39,7 +39,7 @@ From PCs to multi-GPU clusters, Jan & Cortex supports universal architectures:
 - [Model Library](https://jan.ai/docs/models/manage-models#add-models) with popular LLMs like Llama, Gemma, Mistral, or Qwen
 - Connect to [Remote AI APIs](https://jan.ai/docs/remote-models/openai) like Groq and OpenRouter
 - Local API Server with OpenAI-equivalent API
-- [Extensions](https://jan.ai/docs/extensions) for customizing Jan
+- [Extensions](https://jan.ai/docs/extensions) for customizing Tuna
 
 ## Download
 
@@ -133,27 +133,27 @@ From PCs to multi-GPU clusters, Jan & Cortex supports universal architectures:
   </tr>
 </table>
 
-Download the latest version of Jan at https://jan.ai/ or visit the [GitHub Releases](https://github.com/menloresearch/jan/releases) to download any previous release.
+Download the latest version of Tuna at https://jan.ai/ or visit the [GitHub Releases](https://github.com/menloresearch/jan/releases) to download any previous release.
 
 ## Demo
 
 https://github.com/user-attachments/assets/c3592fa2-c504-4d9d-a885-7e00122a50f3
 
-_Real-time Video: Jan v0.5.7 on a Mac M2, 16GB Sonoma 14.2_
+_Real-time Video: Tuna v0.5.7 on a Mac M2, 16GB Sonoma 14.2_
 
 ## Quicklinks
 
-### Jan
+### Tuna
 
-- [Jan Website](https://jan.ai/)
-- [Jan GitHub](https://github.com/menloresearch/jan)
+- [Tuna Website](https://jan.ai/)
+- [Tuna GitHub](https://github.com/menloresearch/jan)
 - [Documentation](https://jan.ai/docs)
-- [Jan Changelog](https://jan.ai/changelog)
-- [Jan Blog](https://jan.ai/blog)
+- [Tuna Changelog](https://jan.ai/changelog)
+- [Tuna Blog](https://jan.ai/blog)
 
 ### Cortex.cpp
 
-Jan is powered by **Cortex.cpp**. It is a C++ command-line interface (CLI) designed as an alternative to [Ollama](https://ollama.com/). By default, it runs on the llama.cpp engine but also supports other engines, including ONNX and TensorRT-LLM, making it a multi-engine platform.
+Tuna is powered by **Cortex.cpp**. It is a C++ command-line interface (CLI) designed as an alternative to [Ollama](https://ollama.com/). By default, it runs on the llama.cpp engine but also supports other engines, including ONNX and TensorRT-LLM, making it a multi-engine platform.
 
 - [Cortex Website](https://cortex.so/)
 - [Cortex GitHub](https://github.com/menloresearch/cortex.cpp)
@@ -161,7 +161,7 @@ Jan is powered by **Cortex.cpp**. It is a C++ command-line interface (CLI) desig
 - [Models Library](https://cortex.so/models)
 - API Reference: _Under development_
 
-## Requirements for running Jan
+## Requirements for running Tuna
 
 - **MacOS**: 13 or higher
 - **Windows**:
@@ -178,7 +178,7 @@ Jan is powered by **Cortex.cpp**. It is a C++ command-line interface (CLI) desig
 
 ## Troubleshooting
 
-As Jan is in development mode, you might get stuck on a some common issues:
+As Tuna is in development mode, you might get stuck on a some common issues:
 
 - [Troubleshooting a broken build](https://jan.ai/docs/troubleshooting#broken-build)
 - [Troubleshooting NVIDIA GPU](https://jan.ai/docs/troubleshooting#troubleshooting-nvidia-gpu)
@@ -211,7 +211,7 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fi
    git checkout -b DESIRED_BRANCH
    ```
 
-2. **Run development and use Jan Desktop**
+2. **Run development and use Tuna Desktop**
 
    ```bash
    make dev
@@ -231,7 +231,7 @@ This will build the app MacOS m1/m2 for production (with code signing already do
 
 ## Acknowledgements
 
-Jan builds on top of other open-source projects:
+Tuna builds on top of other open-source projects:
 
 - [llama.cpp](https://github.com/ggml-org/llama.cpp)
 - [LangChain](https://github.com/langchain-ai)
@@ -256,4 +256,4 @@ Beware of scams!
 
 ## License
 
-Jan is free and open source, under the **Apache 2.0** license.
+Tuna is free and open source, under the **Apache 2.0** license.

@@ -16,7 +16,7 @@
     "dist",
     "types"
   ],
-  "author": "Jan <service@jan.ai>",
+  "author": "Tuna <service@tuna.ai>",
   "exports": {
     ".": "./dist/index.js",
     "./node": "./dist/node/index.cjs.js"

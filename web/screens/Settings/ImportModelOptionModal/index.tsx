@@ -18,13 +18,13 @@ const importOptions: ModelImportOption[] = [
     type: 'symlink',
     title: 'Keep Original Files & Symlink',
     description:
-      'You maintain your model files outside of Jan. Keeping your files where they are, and Jan will create a smart link to them.',
+      'You maintain your model files outside of Tuna. Keeping your files where they are, and Tuna will create a smart link to them.',
   },
   {
     type: 'copy',
     title: 'Move model binary file',
     description:
-      'Jan will move your model binary file from your current folder into Jan Data Folder.',
+      'Tuna will move your model binary file from your current folder into Tuna Data Folder.',
   },
 ]
 
@@ -56,7 +56,7 @@ const ImportModelOptionModal = () => {
           onContinueClick()
         }
       }}
-      title="How would you like Jan to handle your models?"
+      title="How would you like Tuna to handle your models?"
       content={
         <div className="mt-4">
           {importOptions.map((option) => (
