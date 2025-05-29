@@ -5,7 +5,7 @@
   "description": "Powers the default AI assistant that works with all your installed models.",
   "main": "dist/index.js",
   "node": "dist/node/index.js",
-  "author": "Jan <service@jan.ai>",
+  "author": "Tuna <service@tuna.ai>",
   "license": "AGPL-3.0",
   "scripts": {
     "clean:modules": "rimraf node_modules/pdf-parse/test && cd node_modules/pdf-parse/lib/pdf.js && rimraf v1.9.426 v1.10.88 v2.0.550",

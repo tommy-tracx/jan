@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Enables conversations and state persistence via your filesystem.",
   "main": "dist/index.js",
-  "author": "Jan <service@jan.ai>",
+  "author": "Tuna <service@tuna.ai>",
   "license": "MIT",
   "scripts": {
     "test": "jest",

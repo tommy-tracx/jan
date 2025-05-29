@@ -25,7 +25,7 @@ class TrayManager {
     if (process.platform === 'win32') {
       const contextMenu = Menu.buildFromTemplate([
         {
-          label: 'Open Jan',
+          label: 'Open Tuna',
           type: 'normal',
           click: () => windowManager.showMainWindow(),
         },

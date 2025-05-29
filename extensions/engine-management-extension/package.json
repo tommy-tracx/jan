@@ -5,7 +5,7 @@
   "description": "Manages AI engines and their configurations.",
   "main": "dist/index.js",
   "node": "dist/node/index.cjs.js",
-  "author": "Jan <service@jan.ai>",
+  "author": "Tuna <service@tuna.ai>",
   "license": "MIT",
   "scripts": {
     "test": "vitest run",

@@ -40,7 +40,7 @@ export const restAPI = {
     }
   }, {}),
   openExternalUrl,
-  // Jan Server URL
+  // Tuna Server URL
   baseApiUrl: process.env.API_BASE_URL ?? API_BASE_URL,
   pollingInterval: 5000,
 }

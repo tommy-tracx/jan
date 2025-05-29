@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Support - Jan.ai',
+  title: 'Support - Tuna.ai',
   description: 'Support',
 }
 

@@ -1,5 +1,5 @@
 {
-  "name": "jan-app",
+  "name": "tuna-app",
   "private": true,
   "workspaces": {
     "packages": [

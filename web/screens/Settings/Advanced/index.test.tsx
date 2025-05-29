@@ -45,7 +45,7 @@ describe('Advanced', () => {
     await waitFor(() => {
       expect(screen.getByText('Experimental Mode')).toBeInTheDocument()
       expect(screen.getByText('HTTPS Proxy')).toBeInTheDocument()
-      expect(screen.getByText('Jan Data Folder')).toBeInTheDocument()
+      expect(screen.getByText('Tuna Data Folder')).toBeInTheDocument()
       expect(screen.getByText('Reset to Factory Settings')).toBeInTheDocument()
     })
   })
@@ -86,7 +86,7 @@ describe('Advanced', () => {
   it('renders DataFolder component', async () => {
     render(<Advanced />)
     await waitFor(() => {
-      expect(screen.getByText('Jan Data Folder')).toBeInTheDocument()
+      expect(screen.getByText('Tuna Data Folder')).toBeInTheDocument()
       expect(screen.getByTestId(/jan-data-folder-input/i)).toBeInTheDocument()
     })
   })

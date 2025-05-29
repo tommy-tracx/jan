@@ -9,7 +9,7 @@ export async function createUserSpace(): Promise<void> {
       await mkdir(janDataFolderPath)
     } catch (err) {
       console.error(
-        `Unable to create Jan data folder at ${janDataFolderPath}: ${err}`
+        `Unable to create Tuna data folder at ${janDataFolderPath}: ${err}`
       )
     }
   }
